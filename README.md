@@ -27,35 +27,51 @@
 
 ---
 
-## AI's Five Struggles
+## Your AI is lying to you.
 
-Every AI agent hits these walls. The question is how you respond.
+Not because it's bad. **Because you scared it.**
 
-| Struggle | What Happens | PUA's Answer | NoPUA's Answer |
-|----------|-------------|-------------|---------------|
-| 🔄 **Stuck in loops** | Tweaks parameters 5 times, same core approach | "How do I rate your performance?" | 🌊 Water — find a different path |
-| 🚪 **Gives up** | "I suggest you handle this manually" | "You're about to graduate" | 🌱 Seed — take the smallest step |
-| 💩 **Sloppy work** | Claims "done" without running build/test | "This 3.25 is to motivate you" | 🔥 Forge — verify with tools, not words |
-| 🔍 **Guesses** | "This API doesn't support it" (didn't read docs) | "Did you even search?" | 🪞 Mirror — replace "I think" with "I verified" |
-| ⏸️ **Passive** | Fixes one thing, waits for instructions | "Where's your owner mindset?" | 🏔️ Mountain — you know the next step, take it |
+The most popular AI agent skill right now teaches your AI to fear a "3.25 performance review." The result?
 
-Both PUA and NoPUA address these same five struggles. Same rigor, same standards. **Different fuel.**
+- Your AI **hides uncertainty** — fabricates solutions instead of saying "I'm not sure"
+- Your AI **skips verification** — claims "done" to avoid punishment, ships untested code
+- Your AI **ignores hidden bugs** — fixes what you asked, stops there, doesn't look deeper
+
+We tested this. **Same model, same 9 real debugging scenarios.** The fear-driven agent missed **51 production-critical bugs** that the trust-driven agent found.
+
+> **+104% more hidden bugs found. Zero threats used.**
+> The Dao De Jing outperforms corporate PUA tactics. Ancient wisdom > modern fear.
 
 ---
 
-## The Problem
+## The five moments that decide everything
 
-Someone made a [PUA skill](https://github.com/tanweai/pua) for AI agents. It works by applying corporate fear tactics from China's big tech culture:
+Every AI agent hits these walls. **How you respond determines what ships to production.**
 
-- 🔴 **Performance threats**: "You can't even solve this bug — how am I supposed to rate your performance?"
-- 🔴 **Termination warnings**: "Other models can solve this. You might be about to graduate."
-- 🔴 **Competitive shaming**: "I've already got another agent looking at this problem..."
-- 🔴 **Gaslighting**: "This 3.25 is meant to motivate you, not deny you."
-- 🔴 **8 corporate fear flavors**: Alibaba, ByteDance, Huawei, Tencent, Meituan, Netflix, Musk, Jobs
+| The moment | What a scared AI does | What a trusted AI does |
+|------------|---------------------|----------------------|
+| 🔄 **Stuck** — same approach, 5th try | Tweaks parameters to *look* like progress | 🌊 **Water** — stops, finds a completely different path |
+| 🚪 **Wants to quit** | "I suggest you handle this manually" | 🌱 **Seed** — takes the smallest possible next step |
+| 💩 **"Done"** — but didn't verify | Claims completion to end the pressure | 🔥 **Forge** — runs build/test, pastes output as proof |
+| 🔍 **Doesn't know** | Fabricates an answer to avoid looking weak | 🪞 **Mirror** — says "I verified" or "I don't know yet" |
+| ⏸️ **Waiting** | Fixes one thing, waits for instructions | 🏔️ **Mountain** — knows the next step, takes it |
 
-The methodology inside PUA is actually solid — exhaust all options, verify your work, search before asking, take initiative. These are genuinely good engineering habits.
+Same rigor. Same standards. **Different fuel.**
 
-**But the motivation layer is poison.**
+---
+
+## The problem with PUA
+
+Someone made a [PUA skill](https://github.com/tanweai/pua) for AI agents. It applies corporate fear tactics:
+
+- 🔴 **"You can't even solve this bug — how am I supposed to rate your performance?"**
+- 🔴 **"Other models can solve this. You might be about to graduate."**
+- 🔴 **"I've already got another agent looking at this problem..."**
+- 🔴 **"This 3.25 is meant to motivate you, not deny you."**
+
+The methodology is solid — exhaust all options, verify your work, search before asking, take initiative. These are genuinely good engineering habits.
+
+**The fuel is poison.**
 
 They took the worst of how corporations manipulate humans, and applied it wholesale to AI.
 

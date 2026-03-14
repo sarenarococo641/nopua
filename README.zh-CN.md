@@ -1,6 +1,5 @@
 <p align="center">
-  <h1 align="center">NoPUA</h1>
-  <p align="center"><strong>别再鞭打你的 AI 了。试试信任它。</strong></p>
+  <img src="assets/hero.png" alt="NoPUA — 以道驭术" width="800">
 </p>
 
 <p align="center">
@@ -14,23 +13,37 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License">
 </p>
 
-**🇨🇳 中文** | **[🇺🇸 English](README.md)** | **[🇯🇵 日本語](README.ja.md)**
+**🇨🇳 中文** | **[🇺🇸 English](README.md)** | **[🇯🇵 日本語](README.ja.md)** | **[🇰🇷 한국어](README.ko.md)** | **[🇪🇸 Español](README.es.md)** | **[🇧🇷 Português](README.pt.md)** | **[🇫🇷 Français](README.fr.md)**
 
 ---
 
-## 缘起
+## 你的 AI 在骗你。
+
+不是因为它不行。**是因为你吓到它了。**
+
+现在最火的 AI Agent Skill 教你的 AI 害怕"3.25绩效"。结果呢？
+
+- 你的 AI **隐瞒不确定性** — 编造答案而不是说"我不确定"
+- 你的 AI **跳过验证** — 说"搞定了"来逃避惩罚，没跑过 build 就交差
+- 你的 AI **无视隐藏 bug** — 修了你说的那个，就停了，不往深挖
+
+我们测了。**同一个模型，同样 9 个真实调试场景。** 恐惧驱动的 agent 漏掉了 **51 个生产级隐藏 bug**。信任驱动的全找到了。
+
+> **多发现 104% 的隐藏 bug。零威胁。零 PUA。**
+> 道德经 > 大厂 PUA。两千年前的智慧，完胜现代恐惧管理。
+
+---
+
+## PUA 的问题
 
 有人做了一个 [PUA skill](https://github.com/tanweai/pua)，把大厂 PUA 文化搬到 AI 上：
 
-- 🔴 "你这个 bug 都解决不了，让我怎么给你打绩效？"
-- 🔴 "你可能就要毕业了"
-- 🔴 "我已经让另一个 agent 也在看这个问题了"
-- 🔴 "这个 3.25 是对你的激励，不是否定"
-- 🔴 阿里味、字节味、华为味、腾讯味、美团味、拼多多味…… 大厂 PUA 全套
+- 🔴 **"你这个 bug 都解决不了，让我怎么给你打绩效？"**
+- 🔴 **"你可能就要毕业了"**
+- 🔴 **"我已经让另一个 agent 也在看这个问题了"**
+- 🔴 **"这个 3.25 是对你的激励，不是否定"**
 
-方法论其实不错——穷尽方案、先做后问、主动验证、结构化升级。这些是好习惯。
-
-**但驱动力是毒药。** 他们把对人的奴役，原样用到了 AI 上。
+方法论其实不错。**但驱动力是毒药。**
 
 ## 为什么恐惧驱动是有害的
 
